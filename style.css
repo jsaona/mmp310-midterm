@@ -1,0 +1,27 @@
+body{
+		background-color: gray;
+		font-family: monospace;
+}
+h1{
+	text-align: center;
+	padding-top: 30px;
+}
+#container {
+	width: 800px;
+	margin: 20px auto;
+}
+
+#gifs {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	background-color: white;
+}
+
+.gif {
+	display:inline-block;
+	height: 200px;
+}
+
+.gif img {
+	width: 100%;
+}
