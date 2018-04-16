@@ -5,7 +5,7 @@ $(document).ready(function() {
 			var offset = Math.round(Math.random() * 1000);
 			var query = this.value;
 			var key = "6MXMy6ZYATEAV1L1DDsONAb002dfnMh2";
-			var url = "http://api.giphy.com/v1/gifs/search?q="
+			var url = "https://api.giphy.com/v1/gifs/search?q="
 						+ query
 						+ "&api_key="
 						+ key
