@@ -26,7 +26,11 @@ $(document).ready(function() {
 								.addClass('gif');
 							imgContainer.append(imgElem);
 
+
 							 $('#' + animal + '-gifs').append(imgContainer);
+
+							 $('#gifs').append(imgContainer);
+
 						}
 					});
 			});

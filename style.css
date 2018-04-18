@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: #F0E97F;
     font-family: 'Roboto', sans-serif;
@@ -23,12 +24,42 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
+=======
+body{
+	background-color:#F0E97F ;
+	font-family: 'Roboto', sans-serif;
 }
 
+h1{
+	text-align: center;
+	font-size:50px;
+	padding-top: 5px;
+}
+
+#container {
+	width: 900px;
+	margin: 20px auto;
+>>>>>>> 3d8f6e33897f0cfc70ada4f8074b6dc50239aa5b
+}
+p{
+font-size: 30px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
 #gifs {
+<<<<<<< HEAD
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: black;
+=======
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	background-color: black;
+>>>>>>> 3d8f6e33897f0cfc70ada4f8074b6dc50239aa5b
 }
 
 .gif {
