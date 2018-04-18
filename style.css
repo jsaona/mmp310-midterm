@@ -1,33 +1,41 @@
-body{
-<<<<<<< HEAD
-    background-color: gray;
-    font-family: monospace;
-=======
-		
->>>>>>> 4cf3455317eeaac5995cc5c30c458d299415671f
+body {
+    background-color: #F0E97F;
+    font-family: 'Roboto', sans-serif;
 }
 
-h1{
-	text-align: center;
-	padding-top: 30px;
+h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 5px;
 }
 
 #container {
-	width: 800px;
-	margin: 20px auto;
+    width: 900px;
+    margin: 20px auto;
+}
+
+p {
+    font-size: 30px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }
 
 #gifs {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: black;
 }
 
 .gif {
-	display:inline-block;
-	height: 200px;
+    display: inline-block;
+    height: 200px;
 }
 
 .gif img {
-	width: 100%;
+    width: 100%;
 }
