@@ -17,7 +17,6 @@ $(document).ready(function() {
 			$.getJSON(url, function(json) {
 				$.getJSON(animalUrl, function(animalJson) {
 						console.log(json);
-					//document.getElementById('gifs').innerHTML = "";
 						if (json.data.images.downsized.url) {
 
 							const imgElem = $('<img>')
