@@ -1,38 +1,35 @@
-body{
-	background-color:#F0E97F ;
-	font-family: 'Roboto', sans-serif;
+body {
+  background-color: #F0E97F;
+  font-family: 'Roboto', sans-serif;
 }
 
-h1{
-	text-align: center;
-	font-size:50px;
-	padding-top: 5px;
+h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 10px 0px;
 }
 
 #container {
-	width: 900px;
-	margin: 20px auto;
+  width: 900px;
+  margin: 20px auto;
 }
-p{
-font-size: 30px;
+
+p {
+  font-size: 30px;
 }
+
 input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-}
-#gifs {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	background-color: black;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
 
 .gif {
-	display:inline-block;
-	height: 200px;
+  display: inline-block;
+  height: 200px;
 }
 
 .gif img {
-	width: 100%;
+  width: 100%;
 }
